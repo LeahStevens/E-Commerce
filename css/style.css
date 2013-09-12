@@ -101,11 +101,27 @@ section#banner > img{
 
 section#main_content{
   background-color: #fff;
-  height: 200px;
+  height: auto;
   margin-top:10px;
   margin-bottom:10px;
   padding: 10px;
   border-radius: 5px;
+}
+
+dl {
+
+}
+
+dt {
+  font-size: 20px;
+  font-family: 'Inika', serif;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+}
+
+dd {
+  
 }
 
 /*style box for home page Featured Product*/
