@@ -1,7 +1,6 @@
 /*style.css*/
 
 /*FIND BETTER FONTS*/
-@import url(http://fonts.googleapis.com/css?family=Kavoon);
 @import url(http://fonts.googleapis.com/css?family=Inika);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
@@ -15,23 +14,37 @@ h1{
   font-size: 30px;
   font-family: 'Inika', serif;
   text-align: left;
+  margin-bottom:10px;
 }
 
 h2{
   font-size: 25px;
-  font-family:'Inika', serif;
+  font-family: 'Inika', serif;
   text-align: left;
+  margin-bottom:10px;
 }
-
 h3{
   font-size: 15px;
-  font-family:'Inika', serif;
+  font-family: 'Inika', serif;
   text-align: left;
 }
 
 h4{
   font-size: 15px;
-  font-family:'Inika', serif;
+  font-family: 'Inika', serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+h5{
+  font-size: 12px;
+  font-family: 'Inika', serif;
+  text-align: left;
+}
+
+h6{
+  font-size: 9px;
+  font-family: 'Inika', serif;
   text-align: left;
   font-weight: bold;
 }
@@ -136,22 +149,108 @@ section#banner > img{
   border-radius: 5px
 }
 
-section#main_content{
+#main_content{
   background-color: #fff;
+  height: auto;
   margin-top:10px;
   margin-bottom:10px;
   padding: 10px;
   border-radius: 5px;
 }
 
-/*style box for home page Featured Product*/
-section > .box:nth-child(1){
-  float: left;
-  width: 401px;
-  height:160px;
-  border: 1px solid #fff;
+.titlebarindex{
+  background-color:rgb(171, 170, 169);
+  padding:8px;
+}
+#boxindex1 > .titlebarindex{
+  width: 275px;
 }
 
+#boxes{
+  height: auto;
+  width: auto;
+}
+
+dl {
+
+}
+
+dt {
+  font-size: 20px;
+  font-family: 'Inika', serif;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+}
+
+dd {
+
+}
+
+/*style box for home page Featured Product*/
+#boxindex1{
+  border: 1px solid #fff;
+  float: left;
+  width: 295px;
+  height:220px;
+  border-radius: 5px;
+  padding: 15px;
+  padding-left:20px;
+  background-color: #ccc;
+  border-radius: 5px;
+  text-align:center;
+}
+
+.boxindex2{
+  float: left;
+  width: 260px;
+  height:220px;
+  background-color: #ccc;
+  margin-left:10px;
+  padding:15px;
+  border-radius: 5px;
+}
+
+.boxindex3{
+  float: left;
+  width: 260px;
+  height:220px;
+  background-color: #ccc;
+  padding:15px;
+  border-radius: 5px;
+  margin-left:10px;
+  font-size: 17px;
+  font-family: 'Inika', serif;
+}
+
+blockquote{
+margin-top: 24px;
+margin-left: 8px;
+}
+
+.bqstart {
+     float: left;
+     height: 45px;
+     margin-top: -60px;
+     padding-top: 45px;
+     margin-bottom: -10px;
+     font-size: 700%;
+     color: #FF0000;
+ }
+
+ .bqend {
+     float: right;
+     height: 25px;
+     margin-top: -12px;
+      margin-right: 120px;
+     font-size: 700%;
+     color: #FF0000;
+ }
+
+.clearfix{
+  clear:both;
+}
+section
 footer{
   height: 30px;
 }
@@ -161,8 +260,12 @@ small{
   color:#fff;
 }
 
+
 table {
   display: inline-block;
+}
+h1 h2 h3 h4 h5 h6{
+  margin-bottom: 10px;
 }
 
 table td
