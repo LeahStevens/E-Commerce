@@ -22,9 +22,10 @@ h2{
   font-family: 'Inika', serif;
   text-align: left;
 }
+
 h3{
   font-size: 15px;
-  font-family: 'Inika', serif;
+  font-family:'Inika', serif;
   text-align: left;
 }
 
@@ -34,6 +35,7 @@ h4{
   text-align: left;
   font-weight: bold;
 }
+
 h5{
   font-size: 12px;
   font-family: 'Inika', serif;
@@ -44,7 +46,7 @@ h6{
   font-size: 9px;
   font-family: 'Inika', serif;
   text-align: left;
-}
+  font-weight: bold;
 }
 
 #container{
@@ -56,12 +58,19 @@ h6{
 }
 
 header{
-  background-color: #fff;
   height: 94px;
   margin-bottom:10px;
   width:940px;
   padding: 10px 10px 0 10px;
   border-radius: 5px;
+}
+
+img {
+  display: inline-block;
+}
+
+table {
+  display: inline-block;
 }
 
 #logo{
@@ -72,6 +81,10 @@ header{
   float: left;
   margin-right: 10px;
   border-radius: 5px;
+}
+
+.productvideo {
+  margin: auto;
 }
 
 #logo > h1{
@@ -95,10 +108,15 @@ nav > ul li{
 nav > ul li a{
    background-color: rgb(76, 155, 232);
    font-size:16px;
-   font-family:;
+   font-family: 'Oxygen';
    color: #fff;
    padding: 5px 30px 5px 30px;
-   border-radius: 5px
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+nav > ul li a:hover{
+    background-color: rgb(43, 44, 45);
 }
 
 #button{
@@ -131,11 +149,27 @@ section#banner > img{
 
 section#main_content{
   background-color: #fff;
-  height: 200px;
+  height: auto;
   margin-top:10px;
   margin-bottom:10px;
   padding: 10px;
   border-radius: 5px;
+}
+
+dl {
+
+}
+
+dt {
+  font-size: 20px;
+  font-family: 'Inika', serif;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+}
+
+dd {
+
 }
 
 /*style box for home page Featured Product*/
@@ -156,5 +190,48 @@ small{
 }
 
 h1 h2 h3 h4 h5 h6{
-  margin: 10px;
+  margin-bottom: 10px;
+}
+
+table td
+{
+  padding: 5px;
+  font-family: 'Oxygen';
+}
+
+/* For Product Detail Page Sub Navigation */
+.productnav{
+  height:5px;
+  width:560px;
+  padding:17px 15px 15px 15px;
+  float: center;
+  margin:auto;
+  background-color: transparent;
+}
+
+.navli {
+  text-align: center;
+}
+
+.navli a{
+  text-decoration: none;
+  color: rgb(43, 44, 45);
+}
+
+.navli a:hover {
+  text-decoration: none;
+  color: rgb(76,155, 232);
+}
+/*End Prdocut Detail Sub Nav*/
+
+.productdetail {
+  border-right: 1px solid rgba(43, 44, 45, 0.2);
+}
+
+.productcell h2{
+  text-decoration: underline;
+}
+
+.removepadding {
+  padding: 0px;
 }
