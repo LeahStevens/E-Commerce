@@ -71,6 +71,8 @@ table {
 }
 
 .productvideo {
+  width: 640px;
+  height: 360px;
   margin: auto;
 }
 
@@ -160,7 +162,7 @@ small{
 }
 
 table {
-
+  display: inline-block;
 }
 
 table td
@@ -204,4 +206,32 @@ table td
 
 .removepadding {
   padding: 0px;
+}
+
+.videoreview {
+  display: block;
+  padding: 15px;
+  text-decoration: underline;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.buynow-button a{
+   background-color: rgb(76, 155, 232);
+   width: 190px;
+   font-size:16px;
+   font-family: 'Oxygen';
+   color: #fff;
+   padding: 5px 30px 5px 30px;
+   border-radius: 5px;
+   text-decoration: none;
+   display: inline-block;
+   margin-left: 5px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.buynow-button a:hover {
+  background-color: rgba(76, 155, 232, 0.5)
+  transition: all 0.5s ease-in-out;
 }
