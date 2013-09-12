@@ -2,7 +2,125 @@
 
 /*FIND BETTER FONTS*/
 @import url(http://fonts.googleapis.com/css?family=Kavoon);
+@import url(http://fonts.googleapis.com/css?family=Inika);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-html {
-  font-size: 100%;
+
+body{
+  background-color: rgb(43, 44, 45);
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Inika', serif;
+  text-align: left;
+}
+
+#container{
+  margin: 0 auto;
+  width: 960px;
+  height: auto;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+header{
+  background-color: #fff;
+  height: 94px;
+  margin-bottom:10px;
+  width:940px;
+  padding: 10px 10px 0 10px;
+  border-radius: 5px;
+}
+
+#logo{
+  height:74px;
+  width:260px;
+  background-color: rgb(76, 155, 232);
+  padding: 5px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#logo > h1{
+  font-size: 34px;
+  color:#fff;
+}
+
+nav{
+  height:20px;
+  width:560px;
+  background-color: rgb(171, 170, 169);
+  padding:17px 15px 15px 15px;
+  float: left;
+  margin-top:15px;
+}
+
+nav > ul li{
+  display: inline;
+}
+
+nav > ul li a{
+   background-color: rgb(76, 155, 232);
+   font-size:16px;
+   font-family:;
+   color: #fff;
+   padding: 5px 30px 5px 30px;
+   border-radius: 5px
+}
+
+#button{
+  height:35px;
+  width:35px;
+  background-color: rgb(76, 155, 232);
+  border-radius: 5px;
+  padding:13px 10px 10px 10px;
+  margin-left:10px;
+  margin-top:12px;
+  float:left;
+}
+
+#button > a{
+   font-size:14px;
+   font-family: arial;
+   color: #fff;
+   text-align: center;
+}
+
+section#banner{
+  height: 375px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+section#banner > img{
+  border-radius: 5px
+}
+
+section#main_content{
+  background-color: #fff;
+  height: 200px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*style box for home page Featured Product*/
+section > .box:nth-child(1){
+  float: left;
+  width: 401px;
+  height:160px;
+  border: 1px solid #fff;
+}
+
+footer{
+  height: 30px;
+}
+
+small{
+  font-size: 10px;
+  color:#fff;
 }
