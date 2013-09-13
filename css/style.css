@@ -89,6 +89,12 @@ table {
   margin: auto;
 }
 
+#productvideo2 {
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
 #logo > h1{
   font-size: 34px;
   color:#fff;
@@ -171,8 +177,16 @@ section#banner > img{
   width: auto;
 }
 
-dl {
+.big_bg {
+  border: 1px solid #fff;
+  margin: 1% 2%;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #ccc;
+}
 
+dl {
+  margin: 2.5% 5%;
 }
 
 dt {
@@ -180,11 +194,59 @@ dt {
   font-family: 'Inika', serif;
   text-align: left;
   font-weight: bold;
-  padding: 10px;
 }
 
 dd {
+  padding: 0.8em;
+}
 
+form {
+  float: left;
+  width: 45%;
+  overflow: hidden;
+  box-shadow: -2px -2px .2em #999;
+}
+
+#secretary {
+  float: right;
+  width: 45%;
+}
+
+#secretary img {
+  padding-top: 10%;
+}
+
+#justamoment {
+  text-align: center;
+  padding: 1em;
+}
+
+fieldset {
+  padding: 10px 10px;
+}
+
+label {
+  display: block;
+  margin: .25em;
+  text-align: left;
+}
+
+input.textinput {
+  width: 30em;
+  height: 2em;
+}
+
+input[type="submit"] {
+  margin: 10px 0 0;
+}
+
+textarea {
+  display: block;
+  width: 30em;
+  height: 10em;
+  line-height: 1.25;
+  overflow: auto;
+  resize: none;
 }
 
 /*style box for home page Featured Product*/
@@ -250,7 +312,7 @@ margin-left: 8px;
 .clearfix{
   clear:both;
 }
-section
+
 footer{
   height: 30px;
 }
@@ -260,10 +322,11 @@ small{
   color:#fff;
 }
 
-
 table {
   display: inline-block;
+  margin-top: 0px;
 }
+
 h1 h2 h3 h4 h5 h6{
   margin-bottom: 10px;
 }
@@ -299,10 +362,6 @@ table td
 }
 /*End Prdocut Detail Sub Nav*/
 
-.productdetail {
-  border-right: 1px solid rgba(43, 44, 45, 0.2);
-}
-
 .productcell h2{
   text-decoration: underline;
 }
@@ -330,6 +389,7 @@ table td
    text-decoration: none;
    display: inline-block;
    margin-left: 5px;
+   margin-bottom: 10px;
    text-align: center;
    font-weight: bold;
 }
@@ -337,7 +397,9 @@ table td
 .buynow-button a:hover {
   background-color: rgba(76, 155, 232, 0.5)
   transition: all 0.5s ease-in-out;
+
 }
+
 
 #productpage{
   height: auto;
@@ -410,3 +472,31 @@ a:link{
 #checktable{
   background-color: #ccc;
 }
+
+#producttablebg {
+  background-color: rgba(43, 44, 45, 0.2);
+  width: 700px;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+#suggestions {
+  display: inline-block;
+  width: 180px;
+  height: 281px;
+  position: relative;
+  top: 13px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.sugtable {
+  border: 2px solid rgb(76, 155, 232);
+}
+
+.sugtable:hover {
+  border: 2px solid rgb(43, 44, 45);
+}
+
