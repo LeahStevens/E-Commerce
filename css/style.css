@@ -171,8 +171,16 @@ section#banner > img{
   width: auto;
 }
 
-dl {
+.big_bg {
+  border: 1px solid #fff;
+  margin: 1% 2%;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #ccc;
+}
 
+dl {
+  margin: 2.5% 5%;
 }
 
 dt {
@@ -180,11 +188,57 @@ dt {
   font-family: 'Inika', serif;
   text-align: left;
   font-weight: bold;
-  padding: 10px;
 }
 
 dd {
+  padding: 0.8em;
+}
 
+form {
+  float: left;
+  width: 40%;
+  overflow: hidden;
+  box-shadow: -2px -2px .2em #999;
+}
+
+#secretary {
+  float: right;
+}
+
+#secretary img {
+  padding: 10% 15%;
+}
+
+#justamoment {
+  text-align: center;
+}
+
+fieldset {
+  padding: 10px 10px;
+}
+
+label {
+  display: block;
+  margin: .25em;
+  text-align: left;
+}
+
+input.textinput {
+  width: 30em;
+  height: 2em;
+}
+
+input[type="submit"] {
+  margin: 10px 0 0;
+}
+
+textarea {
+  display: block;
+  width: 30em;
+  height: 10em;
+  line-height: 1.25;
+  overflow: auto;
+  resize: none;
 }
 
 /*style box for home page Featured Product*/
@@ -250,7 +304,7 @@ margin-left: 8px;
 .clearfix{
   clear:both;
 }
-section
+
 footer{
   height: 30px;
 }
