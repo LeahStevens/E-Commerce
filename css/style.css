@@ -338,3 +338,75 @@ table td
   background-color: rgba(76, 155, 232, 0.5)
   transition: all 0.5s ease-in-out;
 }
+
+#productpage{
+  height: auto;
+  width: auto;
+
+}
+
+.products{
+
+  float: left;
+  border-radius: 5px;
+  padding: 15px;
+  padding-left:20px;
+  border-radius: 5px;
+  text-align:center;
+   font-family: 'Inika', serif;
+   color: black;
+}
+
+
+.price{
+  color: black;
+  text-align:center;
+  font-size: 15px;
+  font-family: 'Inika', serif;
+  font-weight: bold;
+}
+
+.description{
+  color: black;
+  text-align:center;
+  font-size: 15px;
+  font-family: 'Inika', serif;
+  width: 250px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+#check3{
+  color: black;
+  text-align:center;
+  font-size: 20px;
+  font-family: 'Inika', serif;
+
+
+}
+.check3span{
+  background-color:rgb(76, 155, 232);
+  border-radius: 5px;
+
+}
+
+.check2{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Inika', serif;
+  vertical-align: middle;
+}
+#check1{
+   color: black;
+  text-align:center;
+  font-size: 25px;
+  font-family: 'Inika', serif;
+  background-color: rgb(171, 170, 169);
+}
+
+#checktable{
+  background-color: #ccc;
+}
