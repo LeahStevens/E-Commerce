@@ -202,21 +202,23 @@ dd {
 
 form {
   float: left;
-  width: 40%;
+  width: 45%;
   overflow: hidden;
   box-shadow: -2px -2px .2em #999;
 }
 
 #secretary {
   float: right;
+  width: 45%;
 }
 
 #secretary img {
-  padding: 10% 15%;
+  padding-top: 10%;
 }
 
 #justamoment {
   text-align: center;
+  padding: 1em;
 }
 
 fieldset {
