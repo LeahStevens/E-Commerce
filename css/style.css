@@ -89,6 +89,12 @@ table {
   margin: auto;
 }
 
+#productvideo2 {
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
 #logo > h1{
   font-size: 34px;
   color:#fff;
@@ -260,10 +266,11 @@ small{
   color:#fff;
 }
 
-
 table {
   display: inline-block;
+  margin-top: 0px;
 }
+
 h1 h2 h3 h4 h5 h6{
   margin-bottom: 10px;
 }
@@ -299,10 +306,6 @@ table td
 }
 /*End Prdocut Detail Sub Nav*/
 
-.productdetail {
-  border-right: 1px solid rgba(43, 44, 45, 0.2);
-}
-
 .productcell h2{
   text-decoration: underline;
 }
@@ -330,11 +333,17 @@ table td
    text-decoration: none;
    display: inline-block;
    margin-left: 5px;
+   margin-bottom: 10px;
    text-align: center;
    font-weight: bold;
 }
 
 .buynow-button a:hover {
-  background-color: rgba(76, 155, 232, 0.5)
-  transition: all 0.5s ease-in-out;
+  background-color: rgba(43, 44, 45, 1)
+}
+
+#producttablebg {
+  background-color: rgba(43, 44, 45, 0.2);
+  padding: 10px;
+  margin-top: 10px;
 }
